@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Lusi120';
+    src: url("Lusi120.otf");
+    font-weight: normal;
+    font-style: normal;
+   }
+
+body {
+    margin-top: 7px;
+    background-color: #17DDDD;
+    font-size: 18pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Lusi120', serif;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 60px solid transparent;
+    height: 98vh;
+    width: 98vw;
+    border-image: url('osborder.svg') 1000 round;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+p {
+   text-align: center;
+}
+
+a {
+    color: #000;
+}
